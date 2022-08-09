@@ -20,7 +20,7 @@ Console.WriteLine($"Число без второй цифры - {firstDigit}{thr
 2 ВАРИАНТ:*/
 
 string inputNumber = Console.ReadLine(); // 456
-Console.WriteLine(inputNumber[0]+inputNumber[2]);
+Console.WriteLine($"{inputNumber[0]}{inputNumber[2]}");
 
 /* 
 3 ВАРИАНТ:
