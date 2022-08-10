@@ -8,6 +8,8 @@
 
 Console.WriteLine("Введите число");
 int Number = Convert.ToInt32(Console.ReadLine());
+// && - "И"
+// or - "||"
 if (Number % 7 == 0 && Number % 23 == 0)
 Console.WriteLine("Введенное число одновременно КРАТНО 7 и 23");
 else
