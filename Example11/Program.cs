@@ -17,15 +17,16 @@ Console.WriteLine($"Число без второй цифры - {firstDigit}{thr
 */
 
 /* 
-2 ВАРИАНТ:*/
+2 ВАРИАНТ:
 
 string inputNumber = Console.ReadLine(); // 456
 Console.WriteLine($"{inputNumber[0]}{inputNumber[2]}");
+*/
 
 /* 
 3 ВАРИАНТ:
+*/
 
 int number = new Random().Next(100,1000); // (100;999]
 int result = ((number / 100) * 10) + number % 10; // 456 -> 4, 456 % 10 -> 6
 Console.WriteLine($"Исходное число: {number}, результат: {result}");
-*/
